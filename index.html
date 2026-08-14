@@ -960,7 +960,7 @@
         <h1>Codex × GPT image<br><span class="hero-accent">AIスライド資料作成 完全攻略</span></h1>
         <p class="hero-copy">台本を10枚のスライドへ変え、参考画像で世界観を揃え、レビュー・形式変換・スキル化まで進める実践手順をまとめました。</p>
         <div class="hero-meta">
-          <span>動画内容まとめ</span>
+          <span>内容まとめ</span>
           <span>コピペ用プロンプト</span>
           <span>/slide活用マニュアル</span>
         </div>
@@ -969,8 +969,8 @@
 
     <section class="intro" id="about">
       <h2>この資料について</h2>
-      <p class="lead">今回は動画のご視聴と、保存版資料のお受け取りをいただきありがとうございます。</p>
-      <p>この資料では、動画内容のまとめと、実践に落とし込むための手順を整理しています。初回の10枚生成から、自社の世界観への調整、レビュー、PowerPoint形式への変換、スキル化までを順番に進められます。</p>
+      <p class="lead">保存版資料のお受け取り、ありがとうございます。</p>
+      <p>この資料では、内容のまとめと、実践に落とし込むための手順を整理しています。初回の10枚生成から、自社の世界観への調整、レビュー、PowerPoint形式への変換、スキル化までを順番に進められます。</p>
       <div class="grid three">
         <div class="mini-card">
           <strong>1. まず10枚作る</strong>
@@ -1036,14 +1036,14 @@
           </div>
           <div class="tool-card">
             <strong>GPT image</strong>
-            <p>この資料では、動画に合わせてCodexの画像生成を「GPT image」と表記します。具体的なモデル名や利用上限は更新されるため、公式情報も確認してください。</p>
+            <p>この資料では、本編に合わせてCodexの画像生成を「GPT image」と表記します。具体的なモデル名や利用上限は更新されるため、公式情報も確認してください。</p>
             <a href="https://learn.chatgpt.com/docs/image-generation" target="_blank" rel="noopener">公式の画像生成ガイドを見る</a>
           </div>
         </div>
-        <h4>撮影時点のモデル選択</h4>
+        <h4>収録時点のモデル選択</h4>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>モデル</th><th>動画内での位置づけ</th><th>今回の選択</th></tr></thead>
+            <thead><tr><th>モデル</th><th>本編での位置づけ</th><th>今回の選択</th></tr></thead>
             <tbody>
               <tr><td>GPT 5.6 Sol</td><td>最も高精度なモデル</td><td>今回使用する</td></tr>
               <tr><td>GPT 5.6 Terra</td><td>精度と利用量の中間</td><td>必要に応じて選ぶ</td></tr>
@@ -1051,7 +1051,7 @@
             </tbody>
           </table>
         </div>
-        <div class="note">動画撮影時点では、Codexは期間限定で無料プランにも含まれています。数枚だけ試すなら無料版でも大丈夫ですが、本格利用では月3,000円前後のPlusプランをおすすめしています。地域、税、提供プラン、利用上限は変わる可能性があるため、契約前に公式ページで最新条件を確認してください。</div>
+        <div class="note">収録時点では、Codexは期間限定で無料プランにも含まれています。数枚だけ試すなら無料版でも大丈夫ですが、本格利用では月3,000円前後のPlusプランをおすすめしています。地域、税、提供プラン、利用上限は変わる可能性があるため、契約前に公式ページで最新条件を確認してください。</div>
         <h4>作業用フォルダの役割</h4>
         <div class="flow">
           <div class="flow-item"><div class="flow-index">1</div><div><h4>フォルダを作る</h4><p>パソコン上に「AIスライド」などの作業用フォルダを1つ作ります。</p></div></div>
@@ -1098,16 +1098,16 @@
       </div>
       <div class="content-card">
         <h3>台本をチャットへ貼り、その直下に指示を入れる</h3>
-        <p>作業用フォルダをCodexで開いたら、今回スライドにする台本をチャットへそのまま貼り付けます。その下に、動画で使った最小プロンプトを入れます。</p>
+        <p>作業用フォルダをCodexで開いたら、今回スライドにする台本をチャットへそのまま貼り付けます。その下に、本編で使った最小プロンプトを入れます。</p>
         <div class="prompt-card">
-          <div class="prompt-head"><div class="prompt-title">動画内のスライド生成プロンプト</div><button class="copy-btn" type="button">コピー</button></div>
+          <div class="prompt-head"><div class="prompt-title">本編のスライド生成プロンプト</div><button class="copy-btn" type="button">コピー</button></div>
 <pre><code>上記の台本をもとに
 16:9のスライド画像を10枚作成してください
 画像生成にはGPT imageを使用してください</code></pre>
         </div>
         <div class="note"><strong>最重要:</strong> 「画像生成にはGPT imageを使用してください」という一文を入れます。ここを曖昧にすると、画像生成ではなくHTMLやCSSを使ったコードベースのスライドになる場合があります。</div>
         <h4>実務で条件を固定したい時の補強版</h4>
-        <p>まずは動画内の3行で試し、文字量や保存方法まで固定したい時だけ、次の条件を追加してください。</p>
+        <p>まずは本編の3行で試し、文字量や保存方法まで固定したい時だけ、次の条件を追加してください。</p>
         <div class="prompt-card">
           <div class="prompt-head"><div class="prompt-title">10枚生成の補強プロンプト</div><button class="copy-btn" type="button">コピー</button></div>
 <pre><code>上記の台本をもとに
@@ -1147,7 +1147,7 @@
         <h3>参考画像はフォルダではなくチャットへ送る</h3>
         <p>最初の10枚ができたら、過去に使ったスライドや参考にしたいデザイン画像をCodexのチャットへ送ります。参考画像の特徴を読み取り、その世界観へ寄せてもらいます。</p>
         <div class="prompt-card">
-          <div class="prompt-head"><div class="prompt-title">動画内のトンマナ指定</div><button class="copy-btn" type="button">コピー</button></div>
+          <div class="prompt-head"><div class="prompt-title">本編のトンマナ指定</div><button class="copy-btn" type="button">コピー</button></div>
 <pre><code>この画像のトンマナで作成して</code></pre>
         </div>
         <h4>複数の要素を固定したい時の補強版</h4>
@@ -1272,7 +1272,7 @@
         <p>台本のページ分け、画像生成、参考画像への調整、レビュー、形式変換まで一度実行した後、スキルクリエイターを使って再利用できる手順へまとめます。</p>
         <p>Codexのスキルは、作業手順・参考資料・必要に応じたスクリプトをまとめた再利用可能な仕組みです。詳しい仕様は<a href="https://learn.chatgpt.com/docs/build-skills" target="_blank" rel="noopener">公式のスキル作成ガイド</a>でも確認できます。</p>
         <div class="prompt-card">
-          <div class="prompt-head"><div class="prompt-title">動画内のスライドスキル作成プロンプト</div><button class="copy-btn" type="button">コピー</button></div>
+          <div class="prompt-head"><div class="prompt-title">本編のスライドスキル作成プロンプト</div><button class="copy-btn" type="button">コピー</button></div>
 <pre><code>これまでのやり取りをすべて参照して
 今回行ったスライド生成の手順を
 スキル化してください
@@ -1304,7 +1304,7 @@
         <h3>同じ失敗が続くなら、スライドではなくスキルを直す</h3>
         <p>1ページだけの問題なら、そのページだけ再生成します。同じ文字量の問題や世界観のズレが何度も起きるなら、フィードバックをスキルの手順やチェック項目へ反映します。</p>
         <div class="prompt-card">
-          <div class="prompt-head"><div class="prompt-title">動画内のスキル改善プロンプト</div><button class="copy-btn" type="button">コピー</button></div>
+          <div class="prompt-head"><div class="prompt-title">本編のスキル改善プロンプト</div><button class="copy-btn" type="button">コピー</button></div>
 <pre><code>今の出力は文字量が多すぎるので
 1枚1メッセージになるように
 /slideスキルを改善してください</code></pre>
